@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-    width: 70%; 
+    width: 50%; 
     margin: 0 auto;   
 }
 
@@ -21,3 +21,17 @@ header p{
 p span{
     color: cornflowerblue;
 }
+
+#copertina img{
+    height: 180px;
+    display: inline-block;
+}
+
+.tagline{
+    font-size: 10px;
+}
+
+table td{
+    border: 0px;
+}
+
