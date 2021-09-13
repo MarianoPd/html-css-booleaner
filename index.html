@@ -11,10 +11,12 @@
     <div class="container">
         <!-- Titolo dell'articolo con riferimenti -->
         <header>        
-            <img src="img/logo.svg" alt="logo">
+            <div class="testata">
+                <img src="img/logo.svg" alt="logo">
+            </div>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <p>
-                Scritto da <span>The Booleaner</span> 
+                Scritto da <span class="scrittore">The Booleaner</span> 
                 <br><em>il 10/10/2020</em>
             </p>            
         </header>
@@ -31,7 +33,7 @@
             <!-- Prima parte dell'articolo -->
             <section>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus velit iste cupiditate dicta? Optio provident dolore eveniet maxime, neque corporis ipsum numquam perferendis, maiores minima culpa beatae rerum quae nisi! In similique, minima pariatur at ad tempora! Aliquid ut at porro a labore laudantium quod deserunt, consequuntur sed sunt?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus velit iste cupiditate dicta? Optio provident dolore eveniet maxime,<span class="evidenzia"> neque corporis ipsum numquam perferendis</span>, maiores minima culpa beatae rerum quae nisi! In similique, minima pariatur at ad tempora! Aliquid ut at porro a labore laudantium quod deserunt, consequuntur sed sunt?
                 </p>
                 <ul>
                     <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, alias. Fugiat ab illo quidem, qui quod incidunt debitis voluptas dicta odit fuga ducimus, unde illum eius facilis magnam dolor temporibus?</li>
@@ -43,26 +45,43 @@
             
             <!-- tabella -->
             
-                <table>
+                <table cellspacing="0" cellpadding="0">
                     <thead >
-                        <tr style="background-color: rgb(94, 183, 235);">
-                            <th>Lorem, ipsum dolor.</th>
-                            <th>Lorem, ipsum dolor.</th>
-                            <th>Lorem, ipsum dolor.</th>
+                        <tr class="azz-scuro">
+                            <th class="piccolo">Lorem, ipsum dolor.</th>
+                            <th class="piccolo">Lorem, ipsum dolor.</th>
+                            <th class="grande">Lorem, ipsum dolor.</th>
                         </tr>
                     </thead>
                     <tbody >
-                        <tr style="background-color: rgb(170, 217, 245);">
-                            <td>Lorem, ipsum dolor.</td>
-                            <td>Lorem, ipsum dolor.</td>
-                             <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam enim maxime perspiciatis blanditiis voluptatibus, ipsa nobis ad ut veritatis natus earum animi vero debitis odit neque. Minima illo expedita inventore?</td>
+                        <tr class="azz-chiaro">
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="grande">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam enim maxime perspiciatis blanditiis voluptatibus, ipsa nobis ad ut veritatis natus earum animi vero debitis odit neque. Minima illo expedita inventore?</td>
+                        </tr>
+                        <tr>
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="grande">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam enim maxime perspiciatis blanditiis voluptatibus, ipsa nobis ad ut veritatis natus earum animi vero debitis odit neque. Minima illo expedita inventore?</td>
+                        </tr>
+                        <tr class="azz-chiaro">
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="piccolo">Lorem, ipsum dolor.</td>
+                            <td class="grande">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam enim maxime perspiciatis blanditiis voluptatibus, ipsa nobis ad ut veritatis natus earum animi vero debitis odit neque. Minima illo expedita inventore?</td>
                         </tr>
                     </tbody>
                 </table>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim aliquam quasi distinctio quibusdam ullam unde labore perspiciatis, rerum voluptatum ea vero sed ratione. Quod ea amet qui nihil dicta minus alias voluptas doloribus sit est unde, dignissimos ab explicabo error eligendi rerum soluta fugiat cumque magni? Nam exercitationem consequuntur optio impedit, nulla, sed consectetur repellendus laudantium eum consequatur odio, corrupti ipsam repudiandae suscipit! Hic officiis magni eaque nemo, a unde pariatur itaque officia id ab laudantium eos dicta amet labore mollitia nam ad fuga assumenda laborum non cupiditate! Dolorem eos provident nobis labore autem, vel atque eveniet porro ex?</p>
+                <!-- seconda parte articolo -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui enim aliquam quasi distinctio quibusdam ullam unde labore perspiciatis, rerum voluptatum ea vero sed ratione. Quod ea amet qui nihil dicta minus alias voluptas doloribus sit est unde, <span class="evidenzia">dignissimos ab explicabo error eligendi rerum soluta fugiat cumque magni? Nam exercitationem consequuntur optio impedit, nulla, sed consectetur repellendus laudantium eum</span> consequatur odio, corrupti ipsam repudiandae suscipit! Hic officiis magni eaque nemo, a unde pariatur itaque officia id ab laudantium eos dicta amet labore mollitia nam ad fuga assumenda laborum non cupiditate! Dolorem eos provident nobis labore autem, vel atque eveniet porro ex?</p>
             </section>
         </main>
-        <footer>footer</footer>
+        <!-- articoli collegati  -->
+        <footer>
+            <h4>Potrebbero interessarti</h4>
+            <br>
+            <div class="schermo">Lorem, ipsum dolor.</div>
+            <div class="grafico">Lorem, ipsum dolor.</div>
+        </footer>
     </div>
 
 </body>
