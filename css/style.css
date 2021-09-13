@@ -1,30 +1,29 @@
+/* -->> sito con corpo con uguale dimensione dell'header <<--*/
+
+
 .container{
     width: 70%; 
     margin: 0 auto;   
 }
 
-/* .sizer{
-    margin: 0 auto;
-    width: 70%;
-} */
-
+/* settaggi per background e dimensionamento header  */
 .testata{
     height: 70px;
     background-color: cornflowerblue;    
     background-image: url("../img/pattern.png");
     background-repeat: repeat no-repeat;
-    background-size: 200px;
+    background-size: 280px;
     ;
 }
+
+/* dimensionamentio e posizionemanto logo */
 .testata img{
     height: 30px;
     margin-top: 40px;
     margin-left: 20px;
 }
 
-
-
-header p{
+.riferimenti{
     color: rgb(179, 179, 179);
 }
 
@@ -37,10 +36,12 @@ header p{
     display: inline-block;
 }
 
+/* tagline delle immagini */
 .tagline{
     font-size: 10px;
 }
 
+/* settaggio tabella  da qui ->>>*/
 th{
     color: rgb(255, 255, 255);
 }
@@ -65,11 +66,14 @@ td, th{
 .azz-scuro{
     background-color: rgb(89, 177, 218);
 }
+/* ->>>> a qui */
 
 .evidenzia{
     background-color: rgb(210, 255, 7);
 }
 
+
+/* impostazione delle immagini del footer */
 .schermo{
     background-image: url(../img/monitor.jpg);
 }
