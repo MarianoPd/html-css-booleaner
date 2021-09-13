@@ -1,16 +1,23 @@
 body{
-    width: 50%;
-    margin: 0 auto;
-}
-
-.testata{
-    background-color: cornflowerblue;
-    height: 100px;
+    /* background-color: cornflowerblue;    
     background-image: url("../img/pattern.png");
-    background-size: cover;
+    background-repeat: repeat no-repeat; */
+
 }
 
-.testata img{
-    height: 50px;
-    
+.container{
+    width: 70%; 
+    margin: 0 auto;   
+}
+
+header img{
+    height: 30px;    
+}
+
+header p{
+    color: rgb(179, 179, 179);
+}
+
+p span{
+    color: cornflowerblue;
 }
